@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ehsan Farahjou Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #9cff9c;
+            font-family: monospace;
+        }
+
+        .navbar, .modal-content {
+            background-color: #0a0a0a !important;
+            color: #9cff9c !important;
+        }
+
+        .navbar a, .navbar-brand {
+            color: #9cff9c !important;
+        }
+
+        .card {
+            background-color: #0f0f0f;
+            border: 1px solid #1f1f1f;
+        }
+
+        .card-title, .card-text {
+            color: #9cff9c;
+        }
+
+        .progress {
+            background-color: #1b1b1b;
+        }
+
+        .progress-bar {
+            background-color: #4dff4d;
+        }
+
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.6);
+            color: #9cff9c;
+        }
+
+        * {
+            text-shadow: none !important;
+            box-shadow: none !important;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg px-4">
+    <a class="navbar-brand" href="#">WARNING ! </a>
+</nav>
+
+<!-- CAROUSEL WITH YOUR GIF -->
+<div id="carouselExample" class="carousel slide mt-4 container" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="https://privacyinternational.org/sites/default/files/flysystem/2018-02/giphy.gif" class="d-block w-100" alt="Hacker GIF">
+            <div class="carousel-caption">
+                <h5>Welcome to Portfolio</h5>
+            </div>
+        </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- CARD SECTION -->
+<div class="container mt-5">
+    <div class="row g-4">
+
+        <!-- ABOUT ME -->
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h4 class="card-title">About Me</h4>
+                <p class="card-text">
+                    I am Ehsan Farahjou, a beginner with the determination of a senior.
+                    I’m here to create changes that may someday be remembered in the world.
+                </p>
+                <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#aboutModal">More</button>
+            </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h4 class="card-title">Skills</h4>
+                <p class="card-text"><b>Programming, Video Editing, Designing</b></p>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h4 class="card-title">Contact</h4>
+                <p class="card-text">Email: Fatal4122@gmail.com</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- PROGRESS BARS -->
+<div class="container mt-5">
+    <h3>My Skills</h3>
+
+    <label>HTML</label>
+    <div class="progress mb-3">
+        <div class="progress-bar" style="width: 90%"></div>
+    </div>
+
+    <label>CSS</label>
+    <div class="progress mb-3">
+        <div class="progress-bar" style="width: 80%"></div>
+    </div>
+
+    <label>JavaScript</label>
+    <div class="progress mb-3">
+        <div class="progress-bar" style="width: 70%"></div>
+    </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="aboutModal">
+    <div class="modal-dialog">
+        <div class="modal-content p-3">
+            <h4>About Me</h4>
+            <p>
+                I am Ehsan Farahjou, a beginner with the determination of a senior.
+                I’m here to create changes that may someday be remembered in the world.
+                If you'd like to contact me or are looking to collaborate so we can build new projects together,
+                feel free to message me.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- LEGAL NOTICE BAR -->
+<footer class="text-center py-3 mt-5" style="background-color:#0a0a0a; color:#4dff4d; border-top:1px solid #1f1f1f;">
+    All rights reserved. This website and its content are legally protected.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
